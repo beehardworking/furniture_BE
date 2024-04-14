@@ -1,8 +1,8 @@
-const { DataTypes, Sequelize } = require('sequelize')
-const { connection } = require('./connection')
+const { DataTypes, Sequelize } = require("sequelize");
+const { connection } = require("./connection");
 
 const Manufacturer = connection.define(
-  'Manufacturer',
+  "manufacturer",
   {
     id: {
       type: DataTypes.INTEGER,
@@ -17,5 +17,5 @@ const Manufacturer = connection.define(
   {
     timestamps: true,
   }
-)
-module.exports = Manufacturer
+);
+module.exports = Manufacturer;

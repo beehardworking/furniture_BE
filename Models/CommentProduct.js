@@ -1,8 +1,8 @@
-const { DataTypes, Sequelize } = require('sequelize')
-const { connection } = require('./connection')
+const { DataTypes, Sequelize } = require("sequelize");
+const { connection } = require("./connection");
 
 const CommentProduct = connection.define(
-  'CommentProduct',
+  "commentproduct",
   {
     id: {
       type: DataTypes.INTEGER,
@@ -17,5 +17,5 @@ const CommentProduct = connection.define(
   {
     timestamps: true,
   }
-)
-module.exports = CommentProduct
+);
+module.exports = CommentProduct;

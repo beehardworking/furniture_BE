@@ -13,15 +13,18 @@ const {
   DB_DIALECT,
 } = require("../Config/db.config");
 
-const connection = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
-  host: DB_HOST,
-  dialect: DB_DIALECT,
-  // dialectOptions: {
-  //   ssl: {
-  //     rejectUnauthorized: true,
-  //     ca: serverCa,
-  //   },
-  // },
-});
+const connection = new Sequelize(
+  "mysql://root:TkyobWFnsVgOHXcskEQbTcJZtOsCZyUA@roundhouse.proxy.rlwy.net:49378/railway",
+  {
+    // host: DB_HOST,
+    // dialect: DB_DIALECT,
+    // dialectOptions: {
+    //   ssl: {
+    //     rejectUnauthorized: true,
+    //     ca: serverCa,
+    //   },
+    // },
+  }
+);
 
 module.exports = { connection };
