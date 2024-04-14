@@ -3,7 +3,7 @@
 **Follow these steps to configure the project:**
 
 **1. Clone this project to your local machine.**
-`git clone https://github.com/hlong19it3/Furniture_BE.git`
+`git clone https://github.com/beehardworking/Furniture_BE.git`
 
 **2. Set the environment variables in a .env file:**
 
@@ -29,7 +29,7 @@
 
 **Front-end**
 
-For the front-end, you can clone the repository from [Here](https://github.com/hlong19it3/Furniture_FE). `git clone https://github.com/hlong19it3/Furniture_FE.git`
+For the front-end, you can clone the repository from [Here](https://github.com/beehardworking/Furniture_FE). `git clone https://github.com/beehardworking/Furniture_FE.git`
 
 ***Follow these steps to start the front-end:***
 
@@ -41,13 +41,13 @@ For the front-end, you can clone the repository from [Here](https://github.com/h
 **Accounts**
 ##### Admin account (Example):
 
-* Email: hlong.1805nh@gmail.com
+* Email: dev@gmail.com
 * Role: Admin (Role ID: 2)
 * Password: 12345678 (encypted: 602a271bf46180c001e3978ef14eeaa1)
 
 ##### User account (Example):
 
-* Email: hlong.1805top@gmail.com
+* Email: devuser@gmail.com
 * Password: 12345678 (encypted: 602a271bf46180c001e3978ef14eeaa1)
 
 *Please note that these are example accounts. You can create and manage user accounts based on your specific requirements.*
